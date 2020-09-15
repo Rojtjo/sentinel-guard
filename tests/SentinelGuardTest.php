@@ -19,7 +19,7 @@ class SentinelGuardTest extends TestCase
      */
     private $subject;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sentinel = $this->prophesize(GuardableSentinel::class);
         $this->subject = new SentinelGuard(
