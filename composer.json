@@ -17,13 +17,13 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "cartalyst/sentinel": "^4.0",
-        "illuminate/auth": "^7"
+        "php": "^7.3",
+        "cartalyst/sentinel": "^5.0",
+        "illuminate/auth": "^8"
     },
     "require-dev": {
-        "illuminate/database": "^7",
-        "phpunit/phpunit": "~5.7",
+        "illuminate/database": "^8",
+        "phpunit/phpunit": "^9.0",
         "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
